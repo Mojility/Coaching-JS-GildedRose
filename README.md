@@ -1,3 +1,31 @@
+# Notes About This Project
+
+This is an ES6 starting point for the well known Gilded Rose kata. I've
+specifically set it up so you can follow the flow of Sandi Metz's wonderful
+["All The Little Things"](https://www.youtube.com/watch?v=8bZh5LMaSmE)
+talk from RailsConf 2014.
+
+One thing I really like about Sandi's talk is the practical use of the
+cyclomatic complexity metric - probably the scariest name for one of the
+clearest metrics that measure the "cognitive overhead" involved in understanding
+a piece of code.
+
+The journey I'm illustrating starts with an implementation as "Legacy Code",
+with no tests. I expect you to characterize the behaviour of the existing
+implementation before starting on the implementation of the "Conjured" update.
+
+## Steps to Use
+
+1. Clone this repository; the `master` branch contains the starting point. Over
+   time you may see me elaborate branches like `step0`, `step1` etc showing a
+   particular journey of solution.
+2. `npm install`
+3. `npm test` will run the unit tests, using mocha as the test runner, chai for
+   assertions/expectations, and sinon for mocking. On `master` there are no
+   tests because it is unclear what the code should do.
+4. `npm run linter` will run the linter (eslint) which will error out on the
+   complexity of the legacy code.
+
 # Gilded Rose Requirements Specification
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime
