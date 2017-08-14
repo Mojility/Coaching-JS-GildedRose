@@ -7,8 +7,8 @@ talk from RailsConf 2014.
 
 One thing I really like about Sandi's talk is the practical use of the
 cyclomatic complexity metric - probably the scariest name for one of the
-clearest metrics that measure the "cognitive overhead" involved in understanding
-a piece of code.
+clearest metrics we have (in my opinion) that measure the "cognitive overhead"
+involved in understanding a piece of code.
 
 The journey I'm illustrating starts with an implementation as "Legacy Code",
 with no tests. I expect you to characterize the behaviour of the existing
