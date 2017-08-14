@@ -11,7 +11,8 @@
     "sinon": "^3.2.0"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register src"
+    "test": "mocha --compilers js:babel-core/register src",
+    "characterize": "babel-node src/characterize/characterize.js"
   },
   "author": "",
   "license": "ISC",

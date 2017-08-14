@@ -1,9 +1,9 @@
-export default class GuildedRose {
+export default class GildedRose {
 
-  constructor(name, quality, days_remaining) {
+  constructor(name, quality, sell_in) {
     this.name = name;
     this.quality = quality;
-    this.days_remaining = days_remaining;
+    this.sell_in = sell_in;
   }
 
   tick() {

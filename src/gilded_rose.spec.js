@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import GuildedRose from './guilded_rose';
+import GuildedRose from './gilded_rose';
 
 describe('GuildedRose', () => {
   // What on earth does this thing do??!!
