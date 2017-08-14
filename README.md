@@ -23,7 +23,7 @@ implementation before starting on the implementation of the "Conjured" update.
 3. `npm test` will run the unit tests, using mocha as the test runner, chai for
    assertions/expectations, and sinon for mocking. On `master` there are no
    tests because it is unclear what the code should do.
-4. `npm run linter` will run the linter (eslint) which will error out on the
+4. `npm run analyze` will run the linter (eslint) which will error out on the
    complexity of the legacy code.
 
 # Gilded Rose Requirements Specification
