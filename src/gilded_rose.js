@@ -15,13 +15,13 @@ export default class GuildedRose {
       } else if (this.quality < 50) {
         this.quality = this.quality + 1;
         if (this.name === 'Backstage passes to a TAFKAL80ETC concert') {
-          if (this.sell_in < 11) {
+          if (this.days_remaining < 11) {
             if (this.quality < 50) {
               this.quality = this.quality + 1;
             }
           }
 
-          if (this.sell_in < 6) {
+          if (this.days_remaining < 6) {
             if (this.quality < 50) {
               this.quality = this.quality + 1;
             }
@@ -30,9 +30,9 @@ export default class GuildedRose {
       }
     }
     if (this.name !== 'Sulfuras, Hand of Ragnaros') {
-      this.sell_in = this.sell_in - 1;
+      this.days_remaining = this.days_remaining - 1;
     }
-    if (this.sell_in < 0) {
+    if (this.days_remaining < 0) {
       if (this.name !== 'Aged Brie') {
         if (this.name !== 'Backstage passes to a TAFKAL80ETC concert') {
           if (this.quality > 0) {
