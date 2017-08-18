@@ -7,14 +7,14 @@ let learned = [];
 
 names.forEach(name => {
   qualityBoundaries.forEach(quality => {
-    tolerances.forEach(quality_tolerance => {
-      sellInBoundaries.forEach(days_remaining => {
-        tolerances.forEach(days_tolerance => {
+    tolerances.forEach(qualityTolerance => {
+      sellInBoundaries.forEach(sellIn => {
+        tolerances.forEach(sellInTolerance => {
           let record = {};
-          let g = new GildedRose(name, quality + quality_tolerance, days_remaining + days_tolerance);
-          record.input = [g.name, g.quality, g.days_remaining];
+          let g = new GildedRose(name, quality + qualityTolerance, sellIn + sellInTolerance);
+          record.input = [g.name, g.quality, g.sell_in];
           g.tick();
-          record.output = [g.name, g.quality, g.days_remaining];
+          record.output = [g.name, g.quality, g.sell_in];
           learned.push(record);
         });
       });
