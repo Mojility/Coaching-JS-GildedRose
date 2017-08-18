@@ -1,4 +1,304 @@
 export default [ {
+  "input": [ "Normal Item", -2, -2 ],
+  "output": [ "Normal Item", -1, -3 ]
+}, {
+  "input": [ "Normal Item", -2, -1 ],
+  "output": [ "Normal Item", -1, -2 ]
+}, {
+  "input": [ "Normal Item", -2, 0 ],
+  "output": [ "Normal Item", -1, -1 ]
+}, {
+  "input": [ "Normal Item", -2, 1 ],
+  "output": [ "Normal Item", -1, 0 ]
+}, {
+  "input": [ "Normal Item", -2, 2 ],
+  "output": [ "Normal Item", -1, 1 ]
+}, {
+  "input": [ "Normal Item", -2, 4 ],
+  "output": [ "Normal Item", -1, 3 ]
+}, {
+  "input": [ "Normal Item", -2, 5 ],
+  "output": [ "Normal Item", -1, 4 ]
+}, {
+  "input": [ "Normal Item", -2, 6 ],
+  "output": [ "Normal Item", -1, 5 ]
+}, {
+  "input": [ "Normal Item", -2, 7 ],
+  "output": [ "Normal Item", -1, 6 ]
+}, {
+  "input": [ "Normal Item", -2, 8 ],
+  "output": [ "Normal Item", -1, 7 ]
+}, {
+  "input": [ "Normal Item", -1, -2 ],
+  "output": [ "Normal Item", 0, -3 ]
+}, {
+  "input": [ "Normal Item", -1, -1 ],
+  "output": [ "Normal Item", 0, -2 ]
+}, {
+  "input": [ "Normal Item", -1, 0 ],
+  "output": [ "Normal Item", 0, -1 ]
+}, {
+  "input": [ "Normal Item", -1, 1 ],
+  "output": [ "Normal Item", 0, 0 ]
+}, {
+  "input": [ "Normal Item", -1, 2 ],
+  "output": [ "Normal Item", 0, 1 ]
+}, {
+  "input": [ "Normal Item", -1, 4 ],
+  "output": [ "Normal Item", 0, 3 ]
+}, {
+  "input": [ "Normal Item", -1, 5 ],
+  "output": [ "Normal Item", 0, 4 ]
+}, {
+  "input": [ "Normal Item", -1, 6 ],
+  "output": [ "Normal Item", 0, 5 ]
+}, {
+  "input": [ "Normal Item", -1, 7 ],
+  "output": [ "Normal Item", 0, 6 ]
+}, {
+  "input": [ "Normal Item", -1, 8 ],
+  "output": [ "Normal Item", 0, 7 ]
+}, {
+  "input": [ "Normal Item", 0, -2 ],
+  "output": [ "Normal Item", 0, -3 ]
+}, {
+  "input": [ "Normal Item", 0, -1 ],
+  "output": [ "Normal Item", 0, -2 ]
+}, {
+  "input": [ "Normal Item", 0, 0 ],
+  "output": [ "Normal Item", 0, -1 ]
+}, {
+  "input": [ "Normal Item", 0, 1 ],
+  "output": [ "Normal Item", 1, 0 ]
+}, {
+  "input": [ "Normal Item", 0, 2 ],
+  "output": [ "Normal Item", 1, 1 ]
+}, {
+  "input": [ "Normal Item", 0, 4 ],
+  "output": [ "Normal Item", 1, 3 ]
+}, {
+  "input": [ "Normal Item", 0, 5 ],
+  "output": [ "Normal Item", 1, 4 ]
+}, {
+  "input": [ "Normal Item", 0, 6 ],
+  "output": [ "Normal Item", 1, 5 ]
+}, {
+  "input": [ "Normal Item", 0, 7 ],
+  "output": [ "Normal Item", 1, 6 ]
+}, {
+  "input": [ "Normal Item", 0, 8 ],
+  "output": [ "Normal Item", 1, 7 ]
+}, {
+  "input": [ "Normal Item", 1, -2 ],
+  "output": [ "Normal Item", 0, -3 ]
+}, {
+  "input": [ "Normal Item", 1, -1 ],
+  "output": [ "Normal Item", 0, -2 ]
+}, {
+  "input": [ "Normal Item", 1, 0 ],
+  "output": [ "Normal Item", 0, -1 ]
+}, {
+  "input": [ "Normal Item", 1, 1 ],
+  "output": [ "Normal Item", 0, 0 ]
+}, {
+  "input": [ "Normal Item", 1, 2 ],
+  "output": [ "Normal Item", 0, 1 ]
+}, {
+  "input": [ "Normal Item", 1, 4 ],
+  "output": [ "Normal Item", 0, 3 ]
+}, {
+  "input": [ "Normal Item", 1, 5 ],
+  "output": [ "Normal Item", 0, 4 ]
+}, {
+  "input": [ "Normal Item", 1, 6 ],
+  "output": [ "Normal Item", 0, 5 ]
+}, {
+  "input": [ "Normal Item", 1, 7 ],
+  "output": [ "Normal Item", 0, 6 ]
+}, {
+  "input": [ "Normal Item", 1, 8 ],
+  "output": [ "Normal Item", 0, 7 ]
+}, {
+  "input": [ "Normal Item", 2, -2 ],
+  "output": [ "Normal Item", 0, -3 ]
+}, {
+  "input": [ "Normal Item", 2, -1 ],
+  "output": [ "Normal Item", 0, -2 ]
+}, {
+  "input": [ "Normal Item", 2, 0 ],
+  "output": [ "Normal Item", 0, -1 ]
+}, {
+  "input": [ "Normal Item", 2, 1 ],
+  "output": [ "Normal Item", 1, 0 ]
+}, {
+  "input": [ "Normal Item", 2, 2 ],
+  "output": [ "Normal Item", 1, 1 ]
+}, {
+  "input": [ "Normal Item", 2, 4 ],
+  "output": [ "Normal Item", 1, 3 ]
+}, {
+  "input": [ "Normal Item", 2, 5 ],
+  "output": [ "Normal Item", 1, 4 ]
+}, {
+  "input": [ "Normal Item", 2, 6 ],
+  "output": [ "Normal Item", 1, 5 ]
+}, {
+  "input": [ "Normal Item", 2, 7 ],
+  "output": [ "Normal Item", 1, 6 ]
+}, {
+  "input": [ "Normal Item", 2, 8 ],
+  "output": [ "Normal Item", 1, 7 ]
+}, {
+  "input": [ "Normal Item", 48, -2 ],
+  "output": [ "Normal Item", 46, -3 ]
+}, {
+  "input": [ "Normal Item", 48, -1 ],
+  "output": [ "Normal Item", 46, -2 ]
+}, {
+  "input": [ "Normal Item", 48, 0 ],
+  "output": [ "Normal Item", 46, -1 ]
+}, {
+  "input": [ "Normal Item", 48, 1 ],
+  "output": [ "Normal Item", 47, 0 ]
+}, {
+  "input": [ "Normal Item", 48, 2 ],
+  "output": [ "Normal Item", 47, 1 ]
+}, {
+  "input": [ "Normal Item", 48, 4 ],
+  "output": [ "Normal Item", 47, 3 ]
+}, {
+  "input": [ "Normal Item", 48, 5 ],
+  "output": [ "Normal Item", 47, 4 ]
+}, {
+  "input": [ "Normal Item", 48, 6 ],
+  "output": [ "Normal Item", 47, 5 ]
+}, {
+  "input": [ "Normal Item", 48, 7 ],
+  "output": [ "Normal Item", 47, 6 ]
+}, {
+  "input": [ "Normal Item", 48, 8 ],
+  "output": [ "Normal Item", 47, 7 ]
+}, {
+  "input": [ "Normal Item", 49, -2 ],
+  "output": [ "Normal Item", 47, -3 ]
+}, {
+  "input": [ "Normal Item", 49, -1 ],
+  "output": [ "Normal Item", 47, -2 ]
+}, {
+  "input": [ "Normal Item", 49, 0 ],
+  "output": [ "Normal Item", 47, -1 ]
+}, {
+  "input": [ "Normal Item", 49, 1 ],
+  "output": [ "Normal Item", 48, 0 ]
+}, {
+  "input": [ "Normal Item", 49, 2 ],
+  "output": [ "Normal Item", 48, 1 ]
+}, {
+  "input": [ "Normal Item", 49, 4 ],
+  "output": [ "Normal Item", 48, 3 ]
+}, {
+  "input": [ "Normal Item", 49, 5 ],
+  "output": [ "Normal Item", 48, 4 ]
+}, {
+  "input": [ "Normal Item", 49, 6 ],
+  "output": [ "Normal Item", 48, 5 ]
+}, {
+  "input": [ "Normal Item", 49, 7 ],
+  "output": [ "Normal Item", 48, 6 ]
+}, {
+  "input": [ "Normal Item", 49, 8 ],
+  "output": [ "Normal Item", 48, 7 ]
+}, {
+  "input": [ "Normal Item", 50, -2 ],
+  "output": [ "Normal Item", 48, -3 ]
+}, {
+  "input": [ "Normal Item", 50, -1 ],
+  "output": [ "Normal Item", 48, -2 ]
+}, {
+  "input": [ "Normal Item", 50, 0 ],
+  "output": [ "Normal Item", 48, -1 ]
+}, {
+  "input": [ "Normal Item", 50, 1 ],
+  "output": [ "Normal Item", 49, 0 ]
+}, {
+  "input": [ "Normal Item", 50, 2 ],
+  "output": [ "Normal Item", 49, 1 ]
+}, {
+  "input": [ "Normal Item", 50, 4 ],
+  "output": [ "Normal Item", 49, 3 ]
+}, {
+  "input": [ "Normal Item", 50, 5 ],
+  "output": [ "Normal Item", 49, 4 ]
+}, {
+  "input": [ "Normal Item", 50, 6 ],
+  "output": [ "Normal Item", 49, 5 ]
+}, {
+  "input": [ "Normal Item", 50, 7 ],
+  "output": [ "Normal Item", 49, 6 ]
+}, {
+  "input": [ "Normal Item", 50, 8 ],
+  "output": [ "Normal Item", 49, 7 ]
+}, {
+  "input": [ "Normal Item", 51, -2 ],
+  "output": [ "Normal Item", 49, -3 ]
+}, {
+  "input": [ "Normal Item", 51, -1 ],
+  "output": [ "Normal Item", 49, -2 ]
+}, {
+  "input": [ "Normal Item", 51, 0 ],
+  "output": [ "Normal Item", 49, -1 ]
+}, {
+  "input": [ "Normal Item", 51, 1 ],
+  "output": [ "Normal Item", 50, 0 ]
+}, {
+  "input": [ "Normal Item", 51, 2 ],
+  "output": [ "Normal Item", 50, 1 ]
+}, {
+  "input": [ "Normal Item", 51, 4 ],
+  "output": [ "Normal Item", 50, 3 ]
+}, {
+  "input": [ "Normal Item", 51, 5 ],
+  "output": [ "Normal Item", 50, 4 ]
+}, {
+  "input": [ "Normal Item", 51, 6 ],
+  "output": [ "Normal Item", 50, 5 ]
+}, {
+  "input": [ "Normal Item", 51, 7 ],
+  "output": [ "Normal Item", 50, 6 ]
+}, {
+  "input": [ "Normal Item", 51, 8 ],
+  "output": [ "Normal Item", 50, 7 ]
+}, {
+  "input": [ "Normal Item", 52, -2 ],
+  "output": [ "Normal Item", 50, -3 ]
+}, {
+  "input": [ "Normal Item", 52, -1 ],
+  "output": [ "Normal Item", 50, -2 ]
+}, {
+  "input": [ "Normal Item", 52, 0 ],
+  "output": [ "Normal Item", 50, -1 ]
+}, {
+  "input": [ "Normal Item", 52, 1 ],
+  "output": [ "Normal Item", 51, 0 ]
+}, {
+  "input": [ "Normal Item", 52, 2 ],
+  "output": [ "Normal Item", 51, 1 ]
+}, {
+  "input": [ "Normal Item", 52, 4 ],
+  "output": [ "Normal Item", 51, 3 ]
+}, {
+  "input": [ "Normal Item", 52, 5 ],
+  "output": [ "Normal Item", 51, 4 ]
+}, {
+  "input": [ "Normal Item", 52, 6 ],
+  "output": [ "Normal Item", 51, 5 ]
+}, {
+  "input": [ "Normal Item", 52, 7 ],
+  "output": [ "Normal Item", 51, 6 ]
+}, {
+  "input": [ "Normal Item", 52, 8 ],
+  "output": [ "Normal Item", 51, 7 ]
+}, {
   "input": [ "Aged Brie", -2, -2 ],
   "output": [ "Aged Brie", -1, -3 ]
 }, {
