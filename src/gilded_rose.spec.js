@@ -18,7 +18,7 @@ describe('GuildedRose', () => {
         expect(g.name).to.equal(expected[0]);
         expect(g.quality).to.equal(expected[1]);
         expect(g.sell_in).to.equal(expected[2]);
-      })
+      });
     });
   });
 });
