@@ -10,9 +10,9 @@ describe('GuildedRose', () => {
 
   describe("gold master", () => {
     examples.forEach(example => {
-      it('should conform to the example', () => {
-        let input = example.input;
-        let expected = example.output;
+      let input = example.input;
+      let expected = example.output;
+      it(`${input[0]} with quality ${input[1]} and days ${input[2]} should elicit ${expected[1]}, ${expected[2]}`, () => {
         let g = new GildedRose(input[0], input[1], input[2]);
         g.tick();
         expect(g.name).to.equal(expected[0]);
