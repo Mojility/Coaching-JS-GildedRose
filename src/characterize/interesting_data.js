@@ -1,4 +1,5 @@
 export const names = [
+  'Normal Item',
   'Aged Brie',
   'Backstage passes to a TAFKAL80ETC concert',
   'Sulfuras, Hand of Ragnaros'
