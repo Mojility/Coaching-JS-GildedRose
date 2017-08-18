@@ -1,9 +1,9 @@
 export default class GildedRose {
 
-  constructor(name, quality, days_remaining) {
+  constructor(name, quality, sell_in) {
     this.name = name;
     this.quality = quality;
-    this.days_remaining = days_remaining;
+    this.sell_in = sell_in;
   }
 
   tick() {
@@ -15,13 +15,13 @@ export default class GildedRose {
       } else if (this.quality < 50) {
         this.quality = this.quality + 1;
         if (this.name === 'Backstage passes to a TAFKAL80ETC concert') {
-          if (this.days_remaining < 11) {
+          if (this.sell_in < 11) {
             if (this.quality < 50) {
               this.quality = this.quality + 1;
             }
           }
 
-          if (this.days_remaining < 6) {
+          if (this.sell_in < 6) {
             if (this.quality < 50) {
               this.quality = this.quality + 1;
             }
@@ -30,9 +30,9 @@ export default class GildedRose {
       }
     }
     if (this.name !== 'Sulfuras, Hand of Ragnaros') {
-      this.days_remaining = this.days_remaining - 1;
+      this.sell_in = this.sell_in - 1;
     }
-    if (this.days_remaining < 0) {
+    if (this.sell_in < 0) {
       if (this.name !== 'Aged Brie') {
         if (this.name !== 'Backstage passes to a TAFKAL80ETC concert') {
           if (this.quality > 0) {
